@@ -1,0 +1,13 @@
+
+		p1 is PersonWithJob, p2 is Person
+		1st case: we are comparing two object using PersonWithJob's equal method.
+		It compares two object's name. If it is not equal return false, otherwise it compares
+		two object's salary. In this case p1 has salary 30000, p2 doesn't have salary
+
+		    System.out.println("p1.equals(p2)? " + p1.equals(p2));
+
+		2nd case: we are comparing two object using Person's equal method.
+		It compares two object's name. If it is not equal return false, otherwise it returns true
+		In this case both p1 and p2 have name "Joe"
+
+		    System.out.println("p2.equals(p1)? " + p2.equals(p1));
