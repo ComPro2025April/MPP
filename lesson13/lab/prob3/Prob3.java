@@ -17,6 +17,7 @@ public class Prob3 {
 
         List<? super Integer> listIntegerSuper = new ArrayList<>();
 
+
         List<?> listWild = new ArrayList<>();
 
         List<Object> listObject = new ArrayList<>();
